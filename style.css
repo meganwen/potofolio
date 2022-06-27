@@ -31,7 +31,7 @@ header > .container h1 {
 }
 
 header > .container h1 > a {
-  color: #bdb3a7;
+  color: #fffbf6;
 }
 
 header > .container nav > ul {
@@ -41,7 +41,7 @@ header > .container nav > ul {
 
 header > .container nav > ul > li > a {
   line-height: 60px;
-  color: #bdb3a7;
+  color: #fff9f1;
   font-size: 1.2em;
   letter-spacing: 2px;
 }
@@ -65,7 +65,7 @@ header > .container nav > ul > li > a {
 
   header > .container h1 {
     position: absolute;
-    left: 50%;
+    left: 10%;
     transform: translateX(-50%);
     line-height: 60px;
     padding-top: 0px;
@@ -73,15 +73,11 @@ header > .container nav > ul > li > a {
 
   header nav {
     display: flex;
-    justify-content: center;
+    justify-content: right;
   }
 
   header > .container nav > ul > li {
-    margin-left: 20px;
-  }
-
-  header > .container nav > ul > li:nth-child(2) {
-    margin-right: 250px;
+    margin-left: 50px;
   }
 
   .submenu {
@@ -102,6 +98,17 @@ header > .container nav > ul > li > a {
     color: black;
   }
 }
+
+.container-leftright{
+  display: flex;
+}
+.container-leftright > .about4{
+  flex: 1;
+  background-color: #a6c8b3;
+  margin: 10px 15px 40px 15px;
+  padding: 30px 20px 30px 20px;
+}
+
 .img-fluid {
   width: 100%;
 }
@@ -360,7 +367,7 @@ header > .container nav > ul > li > a {
   }
 }
 .title a {
-  color: black;
+  color: rgb(107, 107, 107);
   font-size: 1.5em;
   font-weight: 700;
 }
@@ -375,15 +382,15 @@ h2 {
 }
 
 footer {
-  background: #bdb3a7;
+  background: #101010;
   padding: 40px 0 40px 0;
 }
 
 dt {
   font-size: 1.2em;
   margin-bottom: 10px;
+  color: #fff9f1;
 }
-
 dd {
   margin-bottom: 4px;
 }
@@ -391,7 +398,9 @@ dd {
 dd > a {
   color: #696363;
 }
-
+.copyright{
+  color: #fff9f1;
+}
 .breadcrumb {
   display: flex;
   margin-top: 20px;
